@@ -16,7 +16,6 @@
 【常用APP的Url Scheme 前缀】
 
 QQ mqq://
-
 微信是 weixin://
 网易新闻 newsapp://
 淘宝 taobao://
