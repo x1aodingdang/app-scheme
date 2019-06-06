@@ -14,7 +14,9 @@
 7.在plist文件中搜索CFBundleURLSchemes，会找到URL Schemes.(可能会存在多个URL Scheme，因为这里包括当前app的URL Scheme和要跳转到app的URL Scheme，可以根据URL identifier区分)
 
 【常用APP的Url Scheme 前缀】
+
 QQ mqq://
+
 微信是 weixin://
 网易新闻 newsapp://
 淘宝 taobao://
