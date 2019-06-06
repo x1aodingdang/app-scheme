@@ -5,13 +5,13 @@
 【如何查看 app 的 URL Schemes ?】
 这个取决于这个APP有没有设置URL Scheme，如果没有设置, 肯定找不到。
 步骤如下：
-1.在电脑上使用iTunes下载那个app
-2.下载完后，在itunes里点击这个app，选择->Show in Finder，看见的是一个.ipa文件
-3.将文件名的后缀 .ipa 改成 .zip 然后解压
-4.打开解压后的文件，找到Payload文件夹并打开，里面只有一个文件
-5.右击这个文件，选择-->显示包内容
-6.这时候会有很多文件，包括图片什么的，在这个文件夹中搜索，找到info.plist文件并打开
-7.在plist文件中搜索CFBundleURLSchemes，会找到URL Schemes.(可能会存在多个URL Scheme，因为这里包括当前app的URL Scheme和要跳转到app的URL Scheme，可以根据URL identifier区分)
+1. 在电脑上使用iTunes下载那个app
+2. 下载完后，在itunes里点击这个app，选择->Show in Finder，看见的是一个.ipa文件
+3. 将文件名的后缀 .ipa 改成 .zip 然后解压
+4. 打开解压后的文件，找到Payload文件夹并打开，里面只有一个文件
+5. 右击这个文件，选择-->显示包内容
+6. 这时候会有很多文件，包括图片什么的，在这个文件夹中搜索，找到info.plist文件并打开
+7. 在plist文件中搜索CFBundleURLSchemes，会找到URL Schemes.(可能会存在多个URL Scheme，因为这里包括当前app的URL Scheme和要跳转到app的URL Scheme，可以根据URL identifier区分)
 
 【常用APP的Url Scheme 前缀】
 
